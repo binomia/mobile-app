@@ -10,7 +10,8 @@ export const INPUT_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(6) + 8 : RFPercen
 export const TEXTAREA_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(15) + 8 : RFPercentage(15)
 export const INPUT_CODE_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(7) : RFPercentage(6)
 
-export const NOTIFICATION_SERVER_URL = "http://192.168.1.97:8000/"
+export const NOTIFICATION_SERVER_URL = "http://192.168.1.96:8000/"
+export const AUTHENTICATION_SERVER_URL = "http://192.168.1.96:8080/"
 
 export const NODEMAILER_EMAIL: string = "brayhandeaza@gmail.com";
 export const NODEMAILER_PASSWORD: string = "eeuj ghvo cxfh irab";
