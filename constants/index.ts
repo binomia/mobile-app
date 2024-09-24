@@ -13,5 +13,8 @@ export const INPUT_CODE_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(7) : RFPerce
 export const NOTIFICATION_SERVER_URL = "http://192.168.1.96:8000/"
 export const AUTHENTICATION_SERVER_URL = "http://192.168.1.96:8080/"
 
+export const AZURE_FACE_API_ENDPOINT = "https://devdinero.cognitiveservices.azure.com"
+export const AZURE_FACE_API_KEY = "4449ba8bab7745b48eb18ebc0739a613"
+
 export const NODEMAILER_EMAIL: string = "brayhandeaza@gmail.com";
 export const NODEMAILER_PASSWORD: string = "eeuj ghvo cxfh irab";
