@@ -18,3 +18,5 @@ export const AZURE_FACE_API_KEY = "4449ba8bab7745b48eb18ebc0739a613"
 
 export const NODEMAILER_EMAIL: string = "brayhandeaza@gmail.com";
 export const NODEMAILER_PASSWORD: string = "eeuj ghvo cxfh irab";
+
+export const OCR_SPACE_API_KEY = "K81383019488957"
