@@ -20,3 +20,8 @@ export const NODEMAILER_EMAIL: string = "brayhandeaza@gmail.com";
 export const NODEMAILER_PASSWORD: string = "eeuj ghvo cxfh irab";
 
 export const OCR_SPACE_API_KEY = "K81383019488957"
+
+export const CLOUDINARY_CLOUD_NAME: string = "brayhandeaza";
+export const CLOUDINARY_ID_UPLOAD_PRESET: string = "dinero-xekxg64n-id";
+export const CLOUDINARY_API_URL: string = "https://api.cloudinary.com/v1_1/brayhandeaza/auto/upload";
+export const CLOUDINARY_AUDIO_API_URL: string = "https://api.cloudinary.com/v1_1/brayhandeaza/image/upload"
