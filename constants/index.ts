@@ -10,8 +10,9 @@ export const INPUT_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(6) + 8 : RFPercen
 export const TEXTAREA_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(15) + 8 : RFPercentage(15)
 export const INPUT_CODE_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(7) : RFPercentage(6)
 
-export const NOTIFICATION_SERVER_URL = "http://192.168.1.96:8000"
-export const AUTHENTICATION_SERVER_URL = "http://192.168.1.96:8080/"
+export const MAIN_SERVER_URL = "http://192.168.1.144:3000/"
+export const NOTIFICATION_SERVER_URL = "http://192.168.1.144:8000"
+export const AUTHENTICATION_SERVER_URL = "http://192.168.1.144:8080/"
 
 export const AZURE_FACE_API_ENDPOINT = "https://devdinero.cognitiveservices.azure.com"
 export const AZURE_FACE_API_KEY = "4449ba8bab7745b48eb18ebc0739a613"
