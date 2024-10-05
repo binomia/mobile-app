@@ -30,4 +30,4 @@ export const CLOUDINARY_VIDEO_UPLOAD_PRESET: string = "dinero-ssxyoum1-video";
 export const CLOUDINARY_API_URL: string = "https://api.cloudinary.com/v1_1/brayhandeaza/auto/upload";
 export const CLOUDINARY_AUDIO_API_URL: string = "https://api.cloudinary.com/v1_1/brayhandeaza/image/upload"
 
-
+export const DATABASE_NAME = "db.db"
