@@ -2,6 +2,8 @@ import { Dimensions } from "react-native"
 import { RFPercentage } from "react-native-responsive-fontsize";
 
 
+export const SUPPORT_PHONE_NUMBER = "8298027293"
+
 export const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window")
 
 export const TEXT_HEADING_FONT_SIZE = RFPercentage(4)
