@@ -33,3 +33,10 @@ export const CLOUDINARY_API_URL: string = "https://api.cloudinary.com/v1_1/brayh
 export const CLOUDINARY_AUDIO_API_URL: string = "https://api.cloudinary.com/v1_1/brayhandeaza/image/upload"
 
 export const DATABASE_NAME = "db.db"
+
+
+export const SOCKET_EVENTS = {
+    "CONNECT": "connect",
+    "DISCONNECT": "disconnect",
+    "TRANSACTION_RECEIVED": "TRANSACTION_CREATED",
+}
