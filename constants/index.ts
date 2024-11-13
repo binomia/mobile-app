@@ -3,7 +3,6 @@ import { RFPercentage } from "react-native-responsive-fontsize";
 
 
 export const SUPPORT_PHONE_NUMBER = "8298027293"
-
 export const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window")
 
 export const TEXT_HEADING_FONT_SIZE = RFPercentage(4)
@@ -12,9 +11,9 @@ export const INPUT_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(6) + 8 : RFPercen
 export const TEXTAREA_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(15) + 8 : RFPercentage(15)
 export const INPUT_CODE_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(7) : RFPercentage(6)
 
-export const MAIN_SERVER_URL = "http://192.168.1.144:3000/"
-export const NOTIFICATION_SERVER_URL = "http://192.168.1.144:8000"
-export const AUTHENTICATION_SERVER_URL = "http://192.168.1.144:8080/"
+export const MAIN_SERVER_URL = "http://192.168.1.144:8000/"
+export const NOTIFICATION_SERVER_URL = "http://192.168.1.144:8001"
+export const AUTHENTICATION_SERVER_URL = "http://192.168.1.144:8003/"
 
 export const AZURE_FACE_API_ENDPOINT = "https://devdinero.cognitiveservices.azure.com"
 export const AZURE_FACE_API_KEY = "4449ba8bab7745b48eb18ebc0739a613"
@@ -33,8 +32,6 @@ export const CLOUDINARY_API_URL: string = "https://api.cloudinary.com/v1_1/brayh
 export const CLOUDINARY_AUDIO_API_URL: string = "https://api.cloudinary.com/v1_1/brayhandeaza/image/upload"
 
 export const DATABASE_NAME = "db.db"
-
-
 export const SOCKET_EVENTS = {
     "CONNECT": "connect",
     "DISCONNECT": "disconnect",
