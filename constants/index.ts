@@ -12,7 +12,7 @@ export const INPUT_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(6) + 8 : RFPercen
 export const TEXTAREA_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(15) + 8 : RFPercentage(15)
 export const INPUT_CODE_HEIGHT = SCREEN_HEIGHT < 670 ? RFPercentage(7) : RFPercentage(6)
 
-export const MAIN_SERVER_URL = "http://192.168.1.144:8000/"
+export const MAIN_SERVER_URL = "http://192.168.1.144:8000/graphql"
 export const NOTIFICATION_SERVER_URL = "http://192.168.1.144:8001"
 export const AUTHENTICATION_SERVER_URL = "http://192.168.1.144:8003/"
 
