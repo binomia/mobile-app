@@ -1,6 +1,9 @@
 import { Dimensions } from "react-native"
 import { RFPercentage } from "react-native-responsive-fontsize";
 
+export const ZERO_ENCRYPTION_KEY = "7335a5f1600b4d506acc41665bff99637df61d46b9a998d158b746a72539cbfd"
+
+
 
 export const SUPPORT_PHONE_NUMBER = "8298027293"
 export const SUPPORT_EMAIL = "soporte@binomia.com"
